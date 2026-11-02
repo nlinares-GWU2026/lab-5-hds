@@ -415,3 +415,81 @@ EOF
 
 You should see Wrote results/combined_table.csv: 626 rows x 13 columns, and the summary should say 626 total records (60 clinic, 566 LUAD). To see the figure, open it from Windows Explorer at \\wsl$\Ubuntu\home\<your-username>\lab-5-hds\results\summary_figure.png, or run explorer.exe results from your terminal. You should see an age boxplot and a sex bar chart for the two cohorts.
 - **Verification:** I created the scripts, then updated the Snakefile to include the rule for `merge_tables` and `make_report`. I made the inputs for these the outputs of two earlier rules `build_samples_table` and `build_feature_table`. I then did a dry run and predicted a total of 3 jobs because now Snakemake will have the results from the other 3 already done and then th new 2 from the `merge_tables` and `make_report`. I ran a test run and inspected the `summary.md`. I checked that against what Claude said the expected `results/combined_table.csv` and inspected the figure. Both matched what Claude said. Everything checked out and I was correct in my prediction of 3 jobs.   
+
+## Entry 5:
+- **Tool:** Claude (Sonnet 5.5)
+- **What I was doing:** Performing a full clean rerun.
+- **What I asked (verbatim):** "Can you help me perform a full clean rerun? For the last run my prediction was  a total of 3 jobs because now Snakemake will have the results from the other 3 already done and then th new 2 from the `merge_tables` and `make_report`. I ran a test run and inspected the `summary.md`. I checked that against what you said and everything matched exactly. I need a full clean run and a partial re-run." (Linked my current repository with everything).
+- **Exact output (verbatim):**
+Your prediction of 3 was right, and so was your reasoning: `all`, `merge_tables` and `make_report`. The three earlier outputs were already up to date, and Snakemake only plans the steps that are out of date.
+
+Next is a full clean run and a partial re-run. I'll rehearse the exact commands first.
+
+### Evidence of a clean run and a partial re-run
+
+This step covers two items ("Clean full run works" and "Partial re-run demonstrated"). We'll run the pipeline from scratch and save the console output as files in the repo.
+
+**Full clean run**
+
+```bash
+cd ~/lab-5-hds
+conda activate lab-5-hds
+mkdir -p evidence
+snakemake --delete-all-output
+snakemake --cores 2 2>&1 | tee evidence/01_clean_run.log
+```
+
+- `--delete-all-output` deletes every file the workflow made, which is the "delete outputs" part of the lab. It only removes files in `results/` that Snakemake produced, not your scripts or raw data.
+- `2>&1 | tee evidence/01_clean_run.log` shows the output on screen *and* saves it. Snakemake prints to the error stream, and `2>&1` merges that into the normal stream so `tee` catches everything.
+
+Near the bottom you should see `total 6`, then `Finished jobid: 0 (Rule: all)`. All five of your rules ran from nothing.
+
+**Check that it's up to date**
+
+```bash
+snakemake -n 2>&1 | tee evidence/02_up_to_date_check.log
+```
+
+This should say "Nothing to be done". It shows the clean run left everything consistent.
+
+**Predict, then make the change**
+
+Before you change anything, look at your DAG on paper (or the picture). Which rules depend on `sql/query_1.sql`? Predict how many jobs will run, and which two rules will **not** run. Then add the comment line at the top of the file:
+
+```bash
+sed -i '1i -- Comment added to demonstrate a partial re-run' sql/query_1.sql
+head -2 sql/query_1.sql
+```
+
+`sed -i '1i ...'` inserts text before line 1 of the file. `head -2` should show your new comment above the original first line.
+
+**Partial re-run**
+
+```bash
+snakemake -n 2>&1 | tee evidence/03_partial_rerun_dryrun.log
+snakemake --cores 2 2>&1 | tee evidence/04_partial_rerun.log
+```
+
+When I tested it, the dry run listed **4 jobs**: `build_feature_table`, `merge_tables`, `make_report` and `all`. `clean_samples` and `build_samples_table` did not run, because nothing they depend on changed. That is the incremental execution the rubric describes. Read the `reason:` lines in the dry run. They explain each decision, for example "Updated input files: sql/query_1.sql".
+
+**Draw the DAG**
+
+```bash
+snakemake --dag | dot -Tpng > evidence/dag.png
+snakemake --rulegraph | dot -Tpng > evidence/rulegraph.png
+```
+
+`--dag` draws the job graph and `--rulegraph` draws one box per rule. You should see `clean_samples → build_samples_table` on one branch and `build_feature_table` on the other, joining at `merge_tables`, then `make_report`, then `all`. If the boxes are dashed, that just means they're already up to date.
+
+**Undo the edit and rebuild**
+
+```bash
+git checkout sql/query_1.sql
+snakemake --cores 2
+snakemake -n
+```
+- `git checkout sql/query_1.sql` restores the committed version of the query.
+- The next run re-runs the same 4 jobs, because the file changed again. That's expected. It brings `results/` back in line with the query you actually committed.
+- The last command should say "Nothing to be done".
+
+- **Verification:** I ran all of the commands, they all came back as expected and what Claude had expected the output would be or SHOULD be. I predicted that there would be 3 or 4 jobs, I was kind of confused at this point so I was interested to see. After the parital re-run, there was 4 jobs that were completed. The two jobs that did not run were `build_analytic_table.py` and `clean_samples_regex.py` because Snakemake only re-runs a job when its own output changed or a job upstream of it re-ran and rewrote its input. `build_feature_table` ran because `reason: Updated input files: sql/query_1.sql`. `merge_tables` and `make_report` and `all` ran because `reason: Input files updated by another job`. The DAG figures were built as expected. The final undo and edit completed succesfully with "Nothing to be done."  
