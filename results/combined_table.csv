@@ -1,0 +1,627 @@
+cohort,record_id,sex,age_years,site,glucose_mg_dl,stage,tmb_nonsynonymous,TP53_count,KRAS_count,EGFR_count,STK11_count,KEAP1_count
+clinic_samples,S0001,female,64.0,Site B,145.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0002,male,51.0,Site C,146.1,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0003,female,72.0,Site B,84.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0004,female,69.0,Site B,120.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0005,male,28.0,Site B,138.3,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0006,female,57.0,Site C,159.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0007,unknown,57.0,Site A,206.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0008,female,27.0,Site C,229.3,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0009,male,31.0,Site C,185.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0010,female,74.0,Site C,215.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0011,male,65.0,Site A,165.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0012,unknown,30.0,Site A,110.4,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0013,female,73.0,Site B,112.8,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0014,female,68.0,Site B,144.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0015,male,28.0,Site B,103.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0016,unknown,68.0,Site B,157.4,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0017,unknown,11.0,Site A,123.4,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0018,female,69.0,Site B,82.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0019,male,26.0,Site A,190.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0020,female,26.0,Site B,108.4,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0021,male,21.0,Site C,88.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0022,unknown,19.0,Site A,233.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0023,male,27.0,Site A,83.5,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0024,female,73.0,Site C,114.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0025,male,60.0,Site A,202.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0026,female,73.0,Site A,217.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0027,female,70.0,Site C,161.7,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0028,female,37.0,Site B,179.1,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0029,female,17.0,Site C,222.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0030,male,42.0,Site B,168.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0031,male,30.0,Site C,85.3,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0032,unknown,34.0,Site B,229.5,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0033,male,14.0,Site B,114.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0034,unknown,31.0,Site A,203.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0035,female,69.0,Site A,130.5,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0036,unknown,39.0,Site C,145.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0037,unknown,10.0,Site A,119.1,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0038,unknown,28.0,Site B,171.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0039,male,46.0,Site C,241.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0040,male,18.0,Site A,105.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0041,male,61.0,Site A,89.5,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0042,female,20.0,Site C,209.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0043,unknown,75.0,Site A,148.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0044,unknown,28.0,Site B,218.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0045,male,42.0,Site B,223.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0046,female,59.0,Site C,143.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0047,unknown,49.0,Site B,165.6,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0048,male,48.0,Site A,108.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0049,male,60.0,Site C,166.1,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0050,unknown,25.0,Site B,149.3,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0051,male,15.0,Site A,216.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0052,unknown,37.0,Site A,172.4,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0053,male,27.0,Site A,143.5,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0054,unknown,20.0,Site A,168.0,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0055,unknown,14.0,Site A,160.1,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0056,male,16.0,Site B,77.2,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0057,female,40.0,Site C,88.8,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0058,female,54.0,Site C,142.8,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0059,male,58.0,Site A,148.9,NA,NA,NA,NA,NA,NA,NA
+clinic_samples,S0060,unknown,56.0,Site A,186.6,NA,NA,NA,NA,NA,NA,NA
+luad_tcga,TCGA-05-4244,male,70.0,Indivumed,NA,IV,6.4,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4249,male,67.0,Indivumed,NA,IB,10.0,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4250,female,79.0,Indivumed,NA,IIIA,10.5,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4382,male,68.0,Indivumed,NA,IB,51.73333333,1.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-05-4384,male,66.0,Indivumed,NA,IIIA,3.966666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-05-4389,male,70.0,Indivumed,NA,IA,7.033333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-05-4390,female,58.0,Indivumed,NA,IB,17.33333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4395,male,76.0,Indivumed,NA,IIIB,7.7,1.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-05-4396,male,76.0,Indivumed,NA,IIIB,43.26666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4397,male,65.0,Indivumed,NA,IIB,24.86666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4398,female,47.0,Indivumed,NA,IIIB,22.36666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4402,female,57.0,Indivumed,NA,IV,4.033333333,1.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-05-4403,male,76.0,Indivumed,NA,IB,4.166666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4405,female,74.0,Indivumed,NA,IB,12.16666667,2.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4410,male,62.0,Indivumed,NA,IB,33.8,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-05-4415,male,57.0,Indivumed,NA,IIIB,6.233333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-05-4417,female,51.0,Indivumed,NA,IB,9.633333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-05-4418,male,69.0,Indivumed,NA,IIIA,8.233333333,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-05-4420,male,41.0,Indivumed,NA,IB,8.566666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4422,male,68.0,Indivumed,NA,IB,1.333333333,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-05-4424,male,70.0,Indivumed,NA,IIB,22.53333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4425,female,70.0,Indivumed,NA,IV,1.333333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4426,male,71.0,Indivumed,NA,IB,1.466666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4427,female,65.0,Indivumed,NA,IIB,31.66666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4430,female,59.0,Indivumed,NA,IB,8.733333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4432,male,66.0,Indivumed,NA,IIB,17.83333333,2.0,0.0,0.0,2.0,0.0
+luad_tcga,TCGA-05-4433,male,82.0,Indivumed,NA,IB,1.1,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-4434,female,67.0,Indivumed,NA,IV,1.466666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-5423,male,65.0,Indivumed,NA,IIB,4.6,2.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-05-5425,male,68.0,Indivumed,NA,IIB,17.96666667,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-05-5428,male,57.0,Indivumed,NA,IIA,11.7,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-5429,male,60.0,Indivumed,NA,IIIA,1.133333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-05-5715,female,69.0,Indivumed,NA,IB,3.533333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z000,unknown,NA,Washington University,NA,NA,3.866666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z001,unknown,NA,Washington University,NA,NA,6.7,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-17-Z002,unknown,NA,Washington University,NA,NA,0.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z003,unknown,NA,Washington University,NA,NA,7.833333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z004,unknown,NA,Washington University,NA,NA,0.666666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z005,unknown,NA,Washington University,NA,NA,3.3,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z007,unknown,NA,Washington University,NA,NA,2.366666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z009,unknown,NA,Washington University,NA,NA,1.666666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z010,unknown,NA,Washington University,NA,NA,8.2,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z011,unknown,NA,Washington University,NA,NA,3.466666667,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-17-Z013,unknown,NA,Washington University,NA,NA,1.933333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z014,unknown,NA,Washington University,NA,NA,11.5,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z015,unknown,NA,Washington University,NA,NA,15.63333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z016,unknown,NA,Washington University,NA,NA,9.033333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z017,unknown,NA,Washington University,NA,NA,6.7,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z018,unknown,NA,Washington University,NA,NA,7.8,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-17-Z019,unknown,NA,Washington University,NA,NA,0.1,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z020,unknown,NA,Washington University,NA,NA,4.066666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z021,unknown,NA,Washington University,NA,NA,5.0,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z022,unknown,NA,Washington University,NA,NA,36.1,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z023,unknown,NA,Washington University,NA,NA,12.06666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z025,unknown,NA,Washington University,NA,NA,7.666666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z026,unknown,NA,Washington University,NA,NA,29.16666667,1.0,0.0,1.0,0.0,1.0
+luad_tcga,TCGA-17-Z027,unknown,NA,Washington University,NA,NA,2.733333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z028,unknown,NA,Washington University,NA,NA,14.86666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z030,unknown,NA,Washington University,NA,NA,17.5,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-17-Z031,unknown,NA,Washington University,NA,NA,69.53333333,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z032,unknown,NA,Washington University,NA,NA,3.466666667,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-17-Z033,unknown,NA,Washington University,NA,NA,4.9,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z036,unknown,NA,Washington University,NA,NA,2.333333333,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-17-Z037,unknown,NA,Washington University,NA,NA,4.1,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z041,unknown,NA,Washington University,NA,NA,2.1,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z042,unknown,NA,Washington University,NA,NA,13.86666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z043,unknown,NA,Washington University,NA,NA,6.0,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-17-Z044,unknown,NA,Washington University,NA,NA,3.333333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z045,unknown,NA,Washington University,NA,NA,20.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z047,unknown,NA,Washington University,NA,NA,0.9,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-17-Z048,unknown,NA,Washington University,NA,NA,1.2,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-17-Z049,unknown,NA,Washington University,NA,NA,16.43333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z050,unknown,NA,Washington University,NA,NA,5.566666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z051,unknown,NA,Washington University,NA,NA,5.6,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z052,unknown,NA,Washington University,NA,NA,4.8,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z053,unknown,NA,Washington University,NA,NA,9.033333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z054,unknown,NA,Washington University,NA,NA,0.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z055,unknown,NA,Washington University,NA,NA,23.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z056,unknown,NA,Washington University,NA,NA,16.06666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z057,unknown,NA,Washington University,NA,NA,12.66666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z058,unknown,NA,Washington University,NA,NA,3.066666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z059,unknown,NA,Washington University,NA,NA,4.866666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z060,unknown,NA,Washington University,NA,NA,7.266666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z061,unknown,NA,Washington University,NA,NA,5.033333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-17-Z062,unknown,NA,Washington University,NA,NA,14.86666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-35-3615,male,57.0,Cureline,NA,IB,3.433333333,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-35-4122,male,69.0,Cureline,NA,IA,9.733333333,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-35-4123,male,38.0,Cureline,NA,IA,8.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-35-5375,male,61.0,Cureline,NA,IIIA,12.9,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-38-4625,female,66.0,UNC,NA,IB,17.96666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-38-4626,female,57.0,UNC,NA,IIA,8.033333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-38-4627,female,64.0,UNC,NA,IIA,0.966666667,0.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-38-4628,female,65.0,UNC,NA,IIB,3.733333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-38-4631,female,72.0,UNC,NA,IB,23.06666667,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-38-4632,male,42.0,UNC,NA,IV,16.73333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-38-6178,female,70.0,UNC,NA,IIIA,2.233333333,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-38-7271,female,72.0,UNC,NA,IA,2.9,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-38-A44F,male,80.0,UNC,NA,IB,0.366666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2655,female,65.0,Christiana Healthcare,NA,IA,5.5,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-44-2656,male,59.0,Christiana Healthcare,NA,IB,50.7,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2657,female,74.0,Christiana Healthcare,NA,IB,23.76666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2659,female,65.0,Christiana Healthcare,NA,IIB,25.86666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2662,male,65.0,Christiana Healthcare,NA,IB,12.43333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2665,female,55.0,Christiana Healthcare,NA,IIB,2.733333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2666,male,43.0,Christiana Healthcare,NA,IB,2.4,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-2668,male,51.0,Christiana Healthcare,NA,IB,21.06666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-3396,female,74.0,Christiana Healthcare,NA,IIIA,12.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-3398,female,77.0,Christiana Healthcare,NA,IA,11.43333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-3917,female,33.0,Christiana Healthcare,NA,IB,6.666666667,1.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-44-3918,female,60.0,Christiana Healthcare,NA,IA,58.33333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-3919,female,71.0,Christiana Healthcare,NA,IA,3.366666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-4112,female,60.0,Christiana Healthcare,NA,IB,29.0,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-5643,male,53.0,Christiana Healthcare,NA,IIIA,7.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-5644,female,51.0,Christiana Healthcare,NA,IB,60.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-5645,female,61.0,Christiana Healthcare,NA,IA,2.366666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-44-6144,male,58.0,Christiana Healthcare,NA,IA,13.1,1.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-44-6145,female,62.0,Christiana Healthcare,NA,IA,19.56666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-6146,male,64.0,Christiana Healthcare,NA,IIB,2.5,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-6148,male,60.0,Christiana Healthcare,NA,IA,0.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-6774,female,56.0,Christiana Healthcare,NA,IIIA,18.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-6775,female,72.0,Christiana Healthcare,NA,IB,4.166666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-6776,female,60.0,Christiana Healthcare,NA,IA,12.46666667,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-44-6777,female,85.0,Christiana Healthcare,NA,IB,22.53333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-6778,male,59.0,Christiana Healthcare,NA,IA,23.43333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-44-6779,female,50.0,Christiana Healthcare,NA,IIB,3.033333333,1.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-44-7659,male,70.0,Christiana Healthcare,NA,IA,9.2,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-7660,male,72.0,Christiana Healthcare,NA,IB,22.26666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-44-7661,female,69.0,Christiana Healthcare,NA,IB,18.16666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-7662,male,61.0,Christiana Healthcare,NA,IB,36.23333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-7667,female,49.0,Christiana Healthcare,NA,IIB,28.46666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-44-7669,male,59.0,Christiana Healthcare,NA,IIA,27.83333333,0.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-44-7670,female,47.0,Christiana Healthcare,NA,IIA,67.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-7671,male,64.0,Christiana Healthcare,NA,IB,13.3,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-44-7672,female,52.0,Christiana Healthcare,NA,IA,10.26666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-8117,female,54.0,Christiana Healthcare,NA,IB,22.7,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-8119,male,73.0,Christiana Healthcare,NA,IIB,19.36666667,0.0,0.0,0.0,2.0,0.0
+luad_tcga,TCGA-44-8120,male,58.0,Christiana Healthcare,NA,IB,18.13333333,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-44-A479,female,73.0,Christiana Healthcare,NA,IB,9.333333333,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-44-A47A,female,78.0,Christiana Healthcare,NA,IB,6.966666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-A47B,male,79.0,Christiana Healthcare,NA,IB,1.333333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-A47F,male,74.0,Christiana Healthcare,NA,IIB,2.633333333,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-44-A47G,female,73.0,Christiana Healthcare,NA,IA,2.633333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-44-A4SS,male,73.0,Christiana Healthcare,NA,IA,14.9,2.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-44-A4SU,female,67.0,Christiana Healthcare,NA,IA,4.433333333,1.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-49-4486,male,72.0,Johns Hopkins,NA,IA,4.8,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-4487,female,72.0,Johns Hopkins,NA,IA,11.46666667,2.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-49-4488,female,74.0,Johns Hopkins,NA,IA,9.033333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-4490,female,45.0,Johns Hopkins,NA,IIIA,1.6,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-49-4494,male,77.0,Johns Hopkins,NA,IIIA,5.733333333,0.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-49-4501,female,67.0,Johns Hopkins,NA,IB,1.6,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-49-4505,female,61.0,Johns Hopkins,NA,IIB,6.3,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-4506,female,68.0,Johns Hopkins,NA,IIB,3.9,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-4507,female,73.0,Johns Hopkins,NA,IIIA,6.133333333,0.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-49-4510,female,51.0,Johns Hopkins,NA,IIB,1.9,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-4512,female,69.0,Johns Hopkins,NA,IIIA,1.4,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-4514,female,79.0,Johns Hopkins,NA,IA,9.8,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-6742,male,70.0,Johns Hopkins,NA,IIA,7.8,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-6743,female,81.0,Johns Hopkins,NA,IIIA,23.06666667,0.0,0.0,0.0,0.0,2.0
+luad_tcga,TCGA-49-6744,female,64.0,Johns Hopkins,NA,IIA,7.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-6745,male,82.0,Johns Hopkins,NA,IIIA,4.3,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-6761,female,68.0,Johns Hopkins,NA,IIIA,9.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-6767,female,46.0,Johns Hopkins,NA,IIB,14.06666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-AAQV,female,63.0,Johns Hopkins,NA,II,2.233333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-AAR0,male,57.0,Johns Hopkins,NA,IA,4.066666667,1.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-49-AAR2,male,64.0,Johns Hopkins,NA,IB,12.13333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-AAR3,male,69.0,Johns Hopkins,NA,IIB,4.266666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-AAR4,male,51.0,Johns Hopkins,NA,IIIA,17.56666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-AAR9,male,61.0,Johns Hopkins,NA,IIB,18.86666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-AARE,female,51.0,Johns Hopkins,NA,IA,40.0,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-49-AARN,female,56.0,Johns Hopkins,NA,IA,23.1,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-AARO,female,39.0,Johns Hopkins,NA,IA,18.03333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-AARQ,female,41.0,Johns Hopkins,NA,I,21.43333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-49-AARR,male,68.0,Johns Hopkins,NA,IA,0.066666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-4B-A93V,female,52.0,Mary Bird Perkins Cancer Center - Our Lady of the Lake,NA,IA,4.1,1.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-50-5044,female,72.0,University of Pittsburgh,NA,IIIB,4.066666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5045,female,57.0,University of Pittsburgh,NA,IA,9.866666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5049,male,70.0,University of Pittsburgh,NA,IA,24.83333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5051,female,42.0,University of Pittsburgh,NA,IIIA,3.466666667,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-50-5055,female,79.0,University of Pittsburgh,NA,IIA,0.7,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5066,male,72.0,University of Pittsburgh,NA,IB,8.833333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5068,female,59.0,University of Pittsburgh,NA,IIB,2.866666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-50-5072,male,74.0,University of Pittsburgh,NA,IIIA,5.2,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-50-5930,male,47.0,University of Pittsburgh,NA,IIIA,34.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5931,female,75.0,University of Pittsburgh,NA,IB,9.266666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5932,male,75.0,University of Pittsburgh,NA,IIB,2.3,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5933,male,72.0,University of Pittsburgh,NA,IIIB,16.5,2.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5935,female,86.0,University of Pittsburgh,NA,IA,3.033333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5936,male,58.0,University of Pittsburgh,NA,IIIA,3.6,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-50-5939,male,85.0,University of Pittsburgh,NA,IB,2.466666667,1.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-50-5941,female,55.0,University of Pittsburgh,NA,IIIA,12.23333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5942,female,67.0,University of Pittsburgh,NA,IA,1.966666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-5944,female,69.0,University of Pittsburgh,NA,IA,1.866666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-50-5946,male,62.0,University of Pittsburgh,NA,IA,19.56666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-6590,female,72.0,University of Pittsburgh,NA,IB,27.63333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-6591,female,63.0,University of Pittsburgh,NA,IV,1.866666667,1.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-50-6592,female,71.0,University of Pittsburgh,NA,IB,8.833333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-6593,female,49.0,University of Pittsburgh,NA,IIIA,9.566666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-6594,female,79.0,University of Pittsburgh,NA,IIIA,16.33333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-6595,female,74.0,University of Pittsburgh,NA,IIIA,3.3,2.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-50-6597,female,79.0,University of Pittsburgh,NA,IB,1.733333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-6673,female,84.0,University of Pittsburgh,NA,I,2.866666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-50-7109,male,60.0,University of Pittsburgh,NA,IA,8.0,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-50-8457,female,63.0,University of Pittsburgh,NA,IA,1.766666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-8459,male,68.0,University of Pittsburgh,NA,IIB,2.533333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-50-8460,male,74.0,University of Pittsburgh,NA,IA,1.033333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-53-7624,female,40.0,University of Miami,NA,IV,24.8,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-53-7626,female,76.0,University of Miami,NA,IIA,35.06666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-53-7813,female,51.0,University of Miami,NA,IIIB,4.866666667,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-53-A4EZ,male,63.0,University of Miami,NA,IIA,15.13333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-1592,male,65.0,International Genomics Consortium,NA,IA,16.36666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-1594,male,68.0,International Genomics Consortium,NA,IIIA,5.6,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-1595,female,74.0,International Genomics Consortium,NA,IA,9.933333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-1596,male,55.0,International Genomics Consortium,NA,IIB,5.866666667,1.0,0.0,0.0,2.0,0.0
+luad_tcga,TCGA-55-5899,male,58.0,International Genomics Consortium,NA,IA,12.86666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-6543,female,60.0,International Genomics Consortium,NA,IA,0.766666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6642,male,63.0,International Genomics Consortium,NA,IB,4.066666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6712,male,71.0,International Genomics Consortium,NA,IIA,4.3,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6968,male,61.0,International Genomics Consortium,NA,IV,15.4,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-6969,male,52.0,International Genomics Consortium,NA,IB,14.3,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6970,female,67.0,International Genomics Consortium,NA,IIIA,5.866666667,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-55-6971,female,59.0,International Genomics Consortium,NA,IB,6.8,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6972,male,72.0,International Genomics Consortium,NA,IB,8.8,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-6975,male,61.0,International Genomics Consortium,NA,IIB,2.866666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6978,male,81.0,International Genomics Consortium,NA,IIA,1.866666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6979,female,59.0,International Genomics Consortium,NA,IIB,17.86666667,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6980,male,56.0,International Genomics Consortium,NA,IA,1.0,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-6981,female,53.0,International Genomics Consortium,NA,IIIA,6.733333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-6982,female,79.0,International Genomics Consortium,NA,IIB,7.2,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6983,male,81.0,International Genomics Consortium,NA,IIB,3.5,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6984,female,71.0,International Genomics Consortium,NA,IIB,1.066666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6985,female,58.0,International Genomics Consortium,NA,IB,14.53333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6986,female,74.0,International Genomics Consortium,NA,IB,0.766666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-6987,male,77.0,International Genomics Consortium,NA,IA,7.133333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-7227,male,77.0,International Genomics Consortium,NA,IIIA,5.0,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7281,female,70.0,International Genomics Consortium,NA,IA,28.83333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7283,female,76.0,International Genomics Consortium,NA,IIIA,14.06666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7284,male,74.0,International Genomics Consortium,NA,IIB,1.333333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7570,male,60.0,International Genomics Consortium,NA,IA,23.56666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-7573,female,72.0,International Genomics Consortium,NA,IA,1.666666667,1.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-55-7574,female,64.0,International Genomics Consortium,NA,IB,16.43333333,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-7576,male,54.0,International Genomics Consortium,NA,IB,24.26666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7724,female,76.0,International Genomics Consortium,NA,IB,7.2,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7725,female,68.0,International Genomics Consortium,NA,IA,3.933333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7726,female,72.0,International Genomics Consortium,NA,IA,3.7,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7727,male,70.0,International Genomics Consortium,NA,IIIA,7.366666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7728,female,64.0,International Genomics Consortium,NA,IB,2.9,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7815,male,76.0,International Genomics Consortium,NA,IB,4.233333333,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-7816,female,49.0,International Genomics Consortium,NA,IV,0.066666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7903,male,64.0,International Genomics Consortium,NA,IA,4.666666667,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7907,male,77.0,International Genomics Consortium,NA,IIA,35.53333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7910,female,50.0,International Genomics Consortium,NA,IIA,9.566666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7911,female,70.0,International Genomics Consortium,NA,IA,7.0,1.0,2.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7913,female,61.0,International Genomics Consortium,NA,IA,10.33333333,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-7914,female,71.0,International Genomics Consortium,NA,IIA,5.366666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7994,male,81.0,International Genomics Consortium,NA,IIB,46.63333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-7995,female,73.0,International Genomics Consortium,NA,IA,20.2,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8085,male,64.0,International Genomics Consortium,NA,IA,7.5,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8087,female,59.0,International Genomics Consortium,NA,IB,1.133333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8089,male,56.0,International Genomics Consortium,NA,IA,36.33333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8090,male,80.0,International Genomics Consortium,NA,IA,2.566666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8091,male,74.0,International Genomics Consortium,NA,IB,0.966666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8092,male,75.0,International Genomics Consortium,NA,IIB,16.43333333,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-8094,male,51.0,International Genomics Consortium,NA,IV,13.23333333,1.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8096,female,67.0,International Genomics Consortium,NA,IB,4.4,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-8097,female,60.0,International Genomics Consortium,NA,IA,3.333333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8203,female,69.0,International Genomics Consortium,NA,IA,12.86666667,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-8204,female,87.0,International Genomics Consortium,NA,IB,6.433333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8205,female,76.0,International Genomics Consortium,NA,IIA,15.8,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8206,male,56.0,International Genomics Consortium,NA,IA,0.9,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-8207,male,73.0,International Genomics Consortium,NA,IB,9.266666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8208,female,73.0,International Genomics Consortium,NA,IA,10.6,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8299,female,61.0,International Genomics Consortium,NA,IA,12.16666667,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-8301,male,58.0,International Genomics Consortium,NA,IB,8.7,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8302,male,54.0,International Genomics Consortium,NA,IB,20.63333333,1.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8505,male,62.0,International Genomics Consortium,NA,IIIA,0.933333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8506,female,62.0,International Genomics Consortium,NA,IIB,52.9,1.0,0.0,1.0,0.0,1.0
+luad_tcga,TCGA-55-8507,male,53.0,International Genomics Consortium,NA,IA,29.26666667,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-8508,female,60.0,International Genomics Consortium,NA,IIA,5.5,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-8510,female,55.0,International Genomics Consortium,NA,IB,9.1,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8511,female,73.0,International Genomics Consortium,NA,IB,17.16666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8512,male,41.0,International Genomics Consortium,NA,IV,1.166666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8513,female,77.0,International Genomics Consortium,NA,IIB,0.166666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8514,female,70.0,International Genomics Consortium,NA,IB,8.333333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8614,male,76.0,International Genomics Consortium,NA,IB,6.8,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8615,male,67.0,International Genomics Consortium,NA,IIIA,3.333333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-55-8616,female,58.0,International Genomics Consortium,NA,IB,14.5,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8619,female,72.0,International Genomics Consortium,NA,IIB,0.666666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-8620,male,60.0,International Genomics Consortium,NA,IV,14.53333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-8621,female,75.0,International Genomics Consortium,NA,IA,2.266666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A48X,female,63.0,International Genomics Consortium,NA,IIA,12.1,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A48Y,male,69.0,International Genomics Consortium,NA,IIA,10.43333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A48Z,female,60.0,International Genomics Consortium,NA,IIIB,1.5,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-55-A490,male,78.0,International Genomics Consortium,NA,IIA,39.76666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A491,female,81.0,International Genomics Consortium,NA,IA,11.23333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A492,female,70.0,International Genomics Consortium,NA,IA,8.633333333,0.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-55-A493,female,54.0,International Genomics Consortium,NA,IB,7.9,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A494,female,61.0,International Genomics Consortium,NA,IB,7.066666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A4DF,male,88.0,International Genomics Consortium,NA,IA,22.73333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-55-A4DG,male,71.0,International Genomics Consortium,NA,IA,20.9,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-55-A57B,female,80.0,International Genomics Consortium,NA,IA,1.3,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-62-8394,female,65.0,Thoraxklinik at University Hospital Heidelberg,NA,IIIB,3.933333333,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-62-8395,female,80.0,Thoraxklinik at University Hospital Heidelberg,NA,IIB,2.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-8397,female,70.0,Thoraxklinik at University Hospital Heidelberg,NA,IIB,0.8,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-8398,male,55.0,Thoraxklinik at University Hospital Heidelberg,NA,IIIA,2.466666667,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-62-8399,male,62.0,Thoraxklinik at University Hospital Heidelberg,NA,IIIA,15.53333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-8402,female,73.0,Thoraxklinik at University Hospital Heidelberg,NA,IIIA,1.366666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-62-A46O,female,65.0,Thoraxklinik at University Hospital Heidelberg,NA,IB,26.53333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-62-A46P,male,65.0,Thoraxklinik at University Hospital Heidelberg,NA,IB,8.4,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-62-A46R,female,54.0,Thoraxklinik at University Hospital Heidelberg,NA,IB,5.666666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-A46S,male,73.0,Thoraxklinik at University Hospital Heidelberg,NA,IB,3.633333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-62-A46U,female,71.0,Thoraxklinik at University Hospital Heidelberg,NA,IIB,1.333333333,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-62-A46V,female,78.0,Thoraxklinik at University Hospital Heidelberg,NA,IB,1.766666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-A46Y,female,70.0,Thoraxklinik at University Hospital Heidelberg,NA,IIIA,1.166666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-A470,male,84.0,Thoraxklinik at University Hospital Heidelberg,NA,IB,3.533333333,0.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-62-A471,male,64.0,Thoraxklinik at University Hospital Heidelberg,NA,IIB,3.033333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-62-A472,male,70.0,Thoraxklinik at University Hospital Heidelberg,NA,IIB,1.766666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-1676,male,58.0,Fox Chase,NA,IA,17.83333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-1677,female,77.0,Fox Chase,NA,IIIA,6.533333333,2.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-1678,female,70.0,Fox Chase,NA,IIA,0.0,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-1679,female,58.0,Fox Chase,NA,IIIA,16.03333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-1680,male,63.0,Fox Chase,NA,IV,1.833333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-1681,female,61.0,Fox Chase,NA,IA,2.566666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-64-5774,male,60.0,Fox Chase,NA,IB,4.133333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-5775,male,71.0,Fox Chase,NA,IIIA,14.4,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-5778,male,60.0,Fox Chase,NA,IB,14.26666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-5779,male,61.0,Fox Chase,NA,IIIA,10.8,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-64-5781,female,55.0,Fox Chase,NA,IB,34.16666667,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-64-5815,male,74.0,Fox Chase,NA,IIB,4.933333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-67-3770,female,70.0,St Joseph's Medical Center (MD),NA,IA,6.266666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-67-3771,female,77.0,St Joseph's Medical Center (MD),NA,IA,31.63333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-67-3772,female,82.0,St Joseph's Medical Center (MD),NA,IB,2.0,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-67-3773,female,84.0,St Joseph's Medical Center (MD),NA,IB,3.233333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-67-3774,female,73.0,St Joseph's Medical Center (MD),NA,IB,3.166666667,0.0,2.0,0.0,1.0,0.0
+luad_tcga,TCGA-67-4679,male,69.0,St Joseph's Medical Center (MD),NA,NA,8.8,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-67-6215,female,52.0,St Joseph's Medical Center (MD),NA,IB,3.4,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-67-6216,female,57.0,St Joseph's Medical Center (MD),NA,IA,1.333333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-67-6217,female,73.0,St Joseph's Medical Center (MD),NA,IIA,5.9,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-69-7760,male,73.0,Washington University - Cleveland Clinic,NA,IIB,2.133333333,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-69-7761,male,84.0,Washington University - Cleveland Clinic,NA,IB,0.966666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-7763,male,69.0,Washington University - Cleveland Clinic,NA,IA,2.2,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-69-7764,male,75.0,Washington University - Cleveland Clinic,NA,IA,2.7,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-7765,male,56.0,Washington University - Cleveland Clinic,NA,IV,18.26666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-69-7973,female,42.0,Washington University - Cleveland Clinic,NA,IB,8.0,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-7974,female,54.0,Washington University - Cleveland Clinic,NA,IIIA,16.1,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-7978,male,59.0,Washington University - Cleveland Clinic,NA,IIB,18.26666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-7979,female,71.0,Washington University - Cleveland Clinic,NA,IB,44.13333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-7980,female,70.0,Washington University - Cleveland Clinic,NA,I,24.56666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-8253,female,59.0,Washington University - Cleveland Clinic,NA,IIA,4.366666667,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-69-8254,male,85.0,Washington University - Cleveland Clinic,NA,NA,2.533333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-8255,male,71.0,Washington University - Cleveland Clinic,NA,IA,9.166666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-8453,male,77.0,Washington University - Cleveland Clinic,NA,IIB,0.0,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-69-A59K,female,60.0,Washington University - Cleveland Clinic,NA,IIB,14.6,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-71-6725,female,48.0,ILSBio,NA,IB,1.7,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-71-8520,female,60.0,ILSBio,NA,IB,2.666666667,1.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-73-4658,female,80.0,Roswell Park,NA,IB,10.66666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-73-4659,male,66.0,Roswell Park,NA,IIIA,6.4,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-73-4662,female,65.0,Roswell Park,NA,IA,6.833333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-73-4666,female,52.0,Roswell Park,NA,IV,11.43333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-73-4668,female,66.0,Roswell Park,NA,IIB,16.23333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-73-4670,female,69.0,Roswell Park,NA,IV,10.96666667,1.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-73-4675,male,59.0,Roswell Park,NA,IIIA,2.133333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-73-4676,male,45.0,Roswell Park,NA,IIA,2.833333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-73-4677,male,74.0,Roswell Park,NA,IA,7.466666667,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-73-7498,female,58.0,Roswell Park,NA,IA,3.3,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-73-7499,female,81.0,Roswell Park,NA,IB,2.166666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-73-A9RS,male,41.0,Roswell Park,NA,IIB,28.3,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-75-5122,male,NA,Ontario Institute for Cancer Research (OICR),NA,IB,3.966666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-5125,male,NA,Ontario Institute for Cancer Research (OICR),NA,IIB,5.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-5126,female,NA,Ontario Institute for Cancer Research (OICR),NA,IIIA,19.63333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-5146,male,NA,Ontario Institute for Cancer Research (OICR),NA,IB,5.633333333,2.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-75-5147,female,NA,Ontario Institute for Cancer Research (OICR),NA,IB,1.3,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-6203,female,NA,Ontario Institute for Cancer Research (OICR),NA,IIIA,0.366666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-6205,female,NA,Ontario Institute for Cancer Research (OICR),NA,IB,1.566666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-6206,male,NA,Ontario Institute for Cancer Research (OICR),NA,IB,2.7,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-75-6207,male,NA,Ontario Institute for Cancer Research (OICR),NA,IIIA,2.0,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-75-6211,female,NA,Ontario Institute for Cancer Research (OICR),NA,IB,11.33333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-75-6212,female,NA,Ontario Institute for Cancer Research (OICR),NA,IIB,0.7,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-75-6214,female,NA,Ontario Institute for Cancer Research (OICR),NA,IIIA,21.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-7025,male,NA,Ontario Institute for Cancer Research (OICR),NA,IB,1.033333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-75-7027,male,NA,Ontario Institute for Cancer Research (OICR),NA,IB,7.133333333,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-75-7030,male,NA,Ontario Institute for Cancer Research (OICR),NA,IIB,0.5,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-75-7031,female,NA,Ontario Institute for Cancer Research (OICR),NA,IB,6.3,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7143,female,62.0,Prince Charles Hospital,NA,IB,0.0,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7145,female,52.0,Prince Charles Hospital,NA,IV,6.266666667,1.0,2.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7146,female,71.0,Prince Charles Hospital,NA,IIIA,11.56666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-7147,female,67.0,Prince Charles Hospital,NA,IIB,10.16666667,1.0,0.0,3.0,0.0,0.0
+luad_tcga,TCGA-78-7148,male,71.0,Prince Charles Hospital,NA,IIB,7.133333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7149,male,71.0,Prince Charles Hospital,NA,IIIB,4.566666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-7150,male,59.0,Prince Charles Hospital,NA,IIB,12.26666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7152,male,65.0,Prince Charles Hospital,NA,IB,6.0,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7153,female,65.0,Prince Charles Hospital,NA,IB,3.833333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-7154,male,72.0,Prince Charles Hospital,NA,IIIA,7.066666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-7155,male,68.0,Prince Charles Hospital,NA,IB,47.06666667,1.0,0.0,3.0,0.0,0.0
+luad_tcga,TCGA-78-7156,male,62.0,Prince Charles Hospital,NA,IV,10.36666667,0.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-78-7158,female,59.0,Prince Charles Hospital,NA,IIIB,8.3,0.0,0.0,1.0,0.0,1.0
+luad_tcga,TCGA-78-7159,female,60.0,Prince Charles Hospital,NA,IA,10.2,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7160,male,61.0,Prince Charles Hospital,NA,IV,1.666666667,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7161,female,69.0,Prince Charles Hospital,NA,IIB,5.8,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7162,male,75.0,Prince Charles Hospital,NA,IA,2.433333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-7163,male,60.0,Prince Charles Hospital,NA,IB,1.666666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7166,male,84.0,Prince Charles Hospital,NA,IIB,6.466666667,0.0,1.0,0.0,2.0,1.0
+luad_tcga,TCGA-78-7167,male,77.0,Prince Charles Hospital,NA,IV,3.5,0.0,2.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-7220,female,53.0,Prince Charles Hospital,NA,IIIA,24.86666667,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7535,male,45.0,Prince Charles Hospital,NA,IB,4.9,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-78-7536,male,69.0,Prince Charles Hospital,NA,IIIA,19.83333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7537,male,72.0,Prince Charles Hospital,NA,IB,4.466666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7539,female,75.0,Prince Charles Hospital,NA,IIA,14.43333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7540,female,66.0,Prince Charles Hospital,NA,IB,7.566666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7542,male,56.0,Prince Charles Hospital,NA,IB,11.0,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-7633,male,67.0,Prince Charles Hospital,NA,IB,4.933333333,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-78-8640,male,59.0,Prince Charles Hospital,NA,IIA,21.7,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-8648,female,58.0,Prince Charles Hospital,NA,IIB,0.466666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-8655,female,77.0,Prince Charles Hospital,NA,IA,3.233333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-8660,male,69.0,Prince Charles Hospital,NA,IIB,7.366666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-78-8662,female,53.0,Prince Charles Hospital,NA,IB,33.73333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-80-5607,female,NA,Ontario Institute for Cancer Research (OICR)/Ottawa,NA,IIB,3.733333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-80-5608,female,NA,Ontario Institute for Cancer Research (OICR)/Ottawa,NA,IA,11.36666667,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-80-5611,male,NA,Ontario Institute for Cancer Research (OICR)/Ottawa,NA,IB,6.333333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-83-5908,female,59.0,CHI-Penrose Colorado,NA,IA,7.2,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-6562,male,52.0,Asterand,NA,IIA,1.733333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-6851,female,73.0,Asterand,NA,IIA,27.93333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-7701,male,66.0,Asterand,NA,IV,12.7,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-7711,male,70.0,Asterand,NA,IIA,13.6,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-7713,male,70.0,Asterand,NA,IIA,10.0,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-86-7714,female,61.0,Asterand,NA,IIIA,2.266666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-7953,female,69.0,Asterand,NA,IA,1.633333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-7954,female,68.0,Asterand,NA,IB,6.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-7955,male,62.0,Asterand,NA,IB,9.233333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8054,male,61.0,Asterand,NA,IIB,6.633333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-86-8055,male,79.0,Asterand,NA,IIA,1.4,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-86-8056,female,63.0,Asterand,NA,IIIA,8.633333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8073,male,58.0,Asterand,NA,IB,44.56666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8074,female,62.0,Asterand,NA,IIA,2.1,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-86-8075,female,66.0,Asterand,NA,IB,1.666666667,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-86-8076,male,42.0,Asterand,NA,IA,2.133333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8278,female,63.0,Asterand,NA,IIB,3.1,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8279,male,46.0,Asterand,NA,IIA,15.2,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8280,female,54.0,Asterand,NA,IIA,1.466666667,1.0,0.0,1.0,1.0,0.0
+luad_tcga,TCGA-86-8281,male,75.0,Asterand,NA,IA,7.566666667,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-86-8358,male,44.0,Asterand,NA,IB,31.83333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-86-8359,male,52.0,Asterand,NA,IIIA,4.8,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-86-8585,male,57.0,Asterand,NA,IB,17.73333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8668,female,61.0,Asterand,NA,IA,1.1,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-86-8669,male,64.0,Asterand,NA,IA,3.933333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8671,female,72.0,Asterand,NA,IIB,1.133333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8672,male,59.0,Asterand,NA,IIB,8.766666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-86-8673,male,61.0,Asterand,NA,IB,14.73333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-8674,male,50.0,Asterand,NA,IIA,8.966666667,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-86-A456,female,78.0,Asterand,NA,IA,10.96666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-A4D0,male,48.0,Asterand,NA,IIA,0.0,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-A4JF,male,56.0,Asterand,NA,IIB,41.16666667,2.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-86-A4P7,female,63.0,Asterand,NA,IB,2.2,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-86-A4P8,female,59.0,Asterand,NA,IIIA,0.0,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6828,male,70.0,ABS - IUPUI,NA,IA,18.23333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6829,male,78.0,ABS - IUPUI,NA,IB,19.6,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6830,female,65.0,ABS - IUPUI,NA,IIA,8.1,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6831,male,66.0,ABS - IUPUI,NA,IB,8.633333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6835,female,81.0,ABS - IUPUI,NA,IA,2.633333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-91-6836,female,52.0,ABS - IUPUI,NA,IB,15.33333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6840,female,59.0,ABS - IUPUI,NA,IA,4.233333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6847,female,62.0,ABS - IUPUI,NA,IB,2.266666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-6848,male,59.0,ABS - IUPUI,NA,IIIA,18.73333333,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-91-6849,female,75.0,ABS - IUPUI,NA,IIIA,3.6,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-91-7771,male,62.0,ABS - IUPUI,NA,IIB,6.233333333,0.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-91-8496,female,63.0,ABS - IUPUI,NA,IB,1.033333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-8497,female,75.0,ABS - IUPUI,NA,IA,1.333333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-8499,female,76.0,ABS - IUPUI,NA,IA,9.433333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-A4BC,male,59.0,ABS - IUPUI,NA,IIA,13.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-91-A4BD,male,78.0,ABS - IUPUI,NA,IIA,0.533333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-93-7347,female,76.0,Washington University - St. Louis,NA,IA,3.566666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-93-7348,female,75.0,Washington University - St. Louis,NA,IA,6.733333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-93-8067,male,77.0,Washington University - St. Louis,NA,IB,15.06666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-93-A4JN,male,71.0,Washington University - St. Louis,NA,IV,2.433333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-93-A4JO,male,70.0,Washington University - St. Louis,NA,IA,1.766666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-93-A4JP,male,64.0,Washington University - St. Louis,NA,IV,1.833333333,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-93-A4JQ,male,49.0,Washington University - St. Louis,NA,IA,3.533333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-7039,female,54.0,Washington University - Emory,NA,IIB,40.36666667,1.0,1.0,1.0,0.0,0.0
+luad_tcga,TCGA-95-7043,female,63.0,Washington University - Emory,NA,IA,34.16666667,1.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-95-7562,male,71.0,Washington University - Emory,NA,IIA,13.1,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-7567,male,61.0,Washington University - Emory,NA,IIB,28.16666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-7944,male,71.0,Washington University - Emory,NA,IA,7.033333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-7947,male,67.0,Washington University - Emory,NA,IA,16.0,1.0,0.0,2.0,0.0,1.0
+luad_tcga,TCGA-95-7948,female,42.0,Washington University - Emory,NA,IB,4.833333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-8039,male,72.0,Washington University - Emory,NA,IA,2.933333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-8494,male,67.0,Washington University - Emory,NA,IIA,3.0,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-A4VK,female,74.0,Washington University - Emory,NA,IIIA,7.4,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-A4VN,female,62.0,Washington University - Emory,NA,IIA,14.06666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-95-A4VP,female,66.0,Washington University - Emory,NA,IIIA,3.766666667,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-97-7546,female,76.0,Washington University - NYU,NA,IA,8.433333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7547,female,67.0,Washington University - NYU,NA,IB,5.3,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7552,male,70.0,Washington University - NYU,NA,IB,1.166666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7553,female,58.0,Washington University - NYU,NA,IA,1.4,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7554,female,83.0,Washington University - NYU,NA,IIIA,13.83333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7937,male,65.0,Washington University - NYU,NA,IB,14.83333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7938,female,76.0,Washington University - NYU,NA,IA,12.23333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-7941,female,72.0,Washington University - NYU,NA,IA,2.9,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-8171,male,81.0,Washington University - NYU,NA,IV,1.866666667,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-8172,female,75.0,Washington University - NYU,NA,IB,8.2,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-8174,male,67.0,Washington University - NYU,NA,IIA,5.266666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-8175,female,55.0,Washington University - NYU,NA,IB,0.9,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-8176,male,63.0,Washington University - NYU,NA,IIIA,4.6,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-97-8177,female,59.0,Washington University - NYU,NA,IB,1.066666667,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-8179,male,72.0,Washington University - NYU,NA,IA,5.033333333,1.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-97-8547,female,78.0,Washington University - NYU,NA,IIIA,1.833333333,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-8552,female,55.0,Washington University - NYU,NA,I,0.766666667,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-A4LX,male,81.0,Washington University - NYU,NA,IB,5.0,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-A4M0,female,60.0,Washington University - NYU,NA,IB,11.6,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-A4M1,female,52.0,Washington University - NYU,NA,IA,1.3,1.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-A4M2,male,66.0,Washington University - NYU,NA,IA,0.866666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-A4M3,female,69.0,Washington University - NYU,NA,IA,6.433333333,0.0,0.0,0.0,1.0,1.0
+luad_tcga,TCGA-97-A4M5,male,83.0,Washington University - NYU,NA,IA,4.8,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-97-A4M6,female,45.0,Washington University - NYU,NA,IA,0.966666667,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-97-A4M7,male,74.0,Washington University - NYU,NA,IA,9.233333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-99-7458,female,74.0,Washington University - Alabama,NA,IIIA,14.66666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-99-8025,female,72.0,Washington University - Alabama,NA,IIIA,14.63333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-99-8028,female,50.0,Washington University - Alabama,NA,IA,13.13333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-99-8032,male,61.0,Washington University - Alabama,NA,IA,12.26666667,0.0,1.0,0.0,2.0,0.0
+luad_tcga,TCGA-99-8033,female,74.0,Washington University - Alabama,NA,IV,5.6,1.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-99-AA5R,female,70.0,Washington University - Alabama,NA,IA,1.8,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-J2-8192,female,65.0,ABS - Lahey Clinic,NA,IIA,2.3,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-J2-8194,female,69.0,ABS - Lahey Clinic,NA,IIB,4.833333333,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-J2-A4AD,female,61.0,ABS - Lahey Clinic,NA,IA,9.9,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-J2-A4AE,female,77.0,ABS - Lahey Clinic,NA,IA,1.366666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-J2-A4AG,female,66.0,ABS - Lahey Clinic,NA,IA,2.733333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-L4-A4E5,female,48.0,Gundersen Lutheran Health System,NA,I,9.933333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-L4-A4E6,male,67.0,Gundersen Lutheran Health System,NA,IA,0.333333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-L9-A443,female,63.0,Candler,NA,IA,7.833333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-L9-A444,female,60.0,Candler,NA,IA,16.36666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-L9-A50W,male,75.0,Candler,NA,IIA,1.066666667,0.0,0.0,2.0,0.0,0.0
+luad_tcga,TCGA-L9-A5IP,female,40.0,Candler,NA,IV,8.733333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-L9-A743,male,56.0,Candler,NA,IIA,3.9,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-L9-A7SV,male,69.0,Candler,NA,IIA,46.63333333,2.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-L9-A8F4,female,64.0,Candler,NA,IB,23.2,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-MN-A4N1,male,60.0,BLN - Baylor,NA,IIA,13.7,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MN-A4N4,male,57.0,BLN - Baylor,NA,IA,44.86666667,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MN-A4N5,male,63.0,BLN - Baylor,NA,IA,13.5,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4SV,male,67.0,Washington University - Mayo Clinic,NA,IB,9.933333333,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4SW,male,53.0,Washington University - Mayo Clinic,NA,IIB,2.066666667,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-MP-A4SY,male,61.0,Washington University - Mayo Clinic,NA,IIB,5.266666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4T2,male,71.0,Washington University - Mayo Clinic,NA,IA,2.466666667,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4T4,female,68.0,Washington University - Mayo Clinic,NA,IIB,11.83333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4T6,female,76.0,Washington University - Mayo Clinic,NA,IIIA,1.933333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-MP-A4T7,female,75.0,Washington University - Mayo Clinic,NA,IV,4.166666667,0.0,1.0,0.0,0.0,1.0
+luad_tcga,TCGA-MP-A4T8,male,68.0,Washington University - Mayo Clinic,NA,IIIA,3.6,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4T9,female,54.0,Washington University - Mayo Clinic,NA,IIIA,1.033333333,0.0,0.0,1.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TA,female,75.0,Washington University - Mayo Clinic,NA,IA,10.5,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TC,male,77.0,Washington University - Mayo Clinic,NA,IIIA,7.6,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TD,male,71.0,Washington University - Mayo Clinic,NA,IIIA,2.333333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-MP-A4TE,male,56.0,Washington University - Mayo Clinic,NA,IIA,4.166666667,0.0,1.0,0.0,1.0,1.0
+luad_tcga,TCGA-MP-A4TF,female,58.0,Washington University - Mayo Clinic,NA,IIA,12.63333333,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TH,female,70.0,Washington University - Mayo Clinic,NA,IA,3.6,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TI,male,72.0,Washington University - Mayo Clinic,NA,IIA,6.866666667,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TJ,female,62.0,Washington University - Mayo Clinic,NA,IA,2.833333333,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A4TK,female,56.0,Washington University - Mayo Clinic,NA,IIB,10.5,1.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-MP-A5C7,female,76.0,Washington University - Mayo Clinic,NA,IB,1.966666667,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-NJ-A4YF,female,50.0,Washington University - Rush University,NA,IA,18.26666667,1.0,0.0,0.0,1.0,0.0
+luad_tcga,TCGA-NJ-A4YG,male,65.0,Washington University - Rush University,NA,IB,4.433333333,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-NJ-A4YI,female,87.0,Washington University - Rush University,NA,IIIA,13.16666667,0.0,1.0,0.0,0.0,0.0
+luad_tcga,TCGA-NJ-A4YP,male,52.0,Washington University - Rush University,NA,IB,15.66666667,0.0,1.0,0.0,2.0,0.0
+luad_tcga,TCGA-NJ-A4YQ,female,69.0,Washington University - Rush University,NA,IA,33.46666667,0.0,0.0,0.0,0.0,1.0
+luad_tcga,TCGA-NJ-A55A,female,76.0,Washington University - Rush University,NA,IB,3.3,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-NJ-A55O,female,56.0,Washington University - Rush University,NA,IIA,4.133333333,0.0,1.0,0.0,1.0,0.0
+luad_tcga,TCGA-NJ-A55R,male,67.0,Washington University - Rush University,NA,IA,7.7,0.0,1.0,0.0,2.0,1.0
+luad_tcga,TCGA-NJ-A7XG,male,49.0,Washington University - Rush University,NA,IIIA,0.9,0.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-O1-A52J,female,74.0,Washington University - CALGB,NA,IA,5.1,1.0,0.0,0.0,0.0,0.0
+luad_tcga,TCGA-S2-AA1A,female,68.0,Albert Einstein Medical Center,NA,IA,3.433333333,0.0,0.0,0.0,0.0,0.0

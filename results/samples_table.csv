@@ -1,0 +1,61 @@
+sample_id,glucose_mg_dl,sex,enrollment_site,age_years,notes,glucose_flag,glucose_unit_original
+S0001,145.9,F,Site B,64,,,mg/dL
+S0002,146.1,M,Site C,51,,,mg/dL
+S0003,84.2,F,Site B,72,,,mg/dL
+S0004,120.0,F,Site B,69,,,mg/dL
+S0005,138.3,M,Site B,28,,,mg/dL
+S0006,159.9,F,Site C,57,,unit_label_implausible,mmol/L
+S0007,206.0,U,Site A,57,,,mg/dL
+S0008,229.3,F,Site C,27,,,mg/dL
+S0009,185.0,M,Site C,31,,,mg/dL
+S0010,215.2,F,Site C,74,re-draw requested,,mg/dL
+S0011,165.0,M,Site A,65,,unit_label_implausible,mmol/L
+S0012,110.4,U,Site A,30,re-draw requested,,mg/dL
+S0013,112.8,F,Site B,73,,unit_label_implausible,mmol/L
+S0014,144.0,F,Site B,68,,,mg/dL
+S0015,103.0,M,Site B,28,,unit_label_implausible,mmol/L
+S0016,157.4,U,Site B,68,,,mg/dL
+S0017,123.4,U,Site A,11,,,mg/dL
+S0018,82.2,F,Site B,69,,,mg/dL
+S0019,190.6,M,Site A,26,,,mg/dL
+S0020,108.4,F,Site B,26,,,mg/dL
+S0021,88.6,M,Site C,21,,,mg/dL
+S0022,233.0,U,Site A,19,,,mg/dL
+S0023,83.5,M,Site A,27,,,mg/dL
+S0024,114.9,F,Site C,73,,,mg/dL
+S0025,202.6,M,Site A,60,,,mg/dL
+S0026,217.0,F,Site A,73,,unit_label_implausible,mmol/L
+S0027,161.7,F,Site C,70,,,mg/dL
+S0028,179.1,F,Site B,37,,,mg/dL
+S0029,222.6,F,Site C,17,,,mg/dL
+S0030,168.6,M,Site B,42,,,mg/dL
+S0031,85.3,M,Site C,30,,,mg/dL
+S0032,229.5,U,Site B,34,,,mg/dL
+S0033,114.9,M,Site B,14,,,mg/dL
+S0034,203.9,U,Site A,31,,unit_label_implausible,mmol/L
+S0035,130.5,F,Site A,69,,,mg/dL
+S0036,145.6,U,Site C,39,,,mg/dL
+S0037,119.1,U,Site A,10,re-draw requested,unit_label_implausible,mmol/L
+S0038,171.6,U,Site B,28,,,mg/dL
+S0039,241.2,M,Site C,46,,asterisk;unit_label_implausible,mmol/L
+S0040,105.9,M,Site A,18,,,mg/dL
+S0041,89.5,M,Site A,61,,,mg/dL
+S0042,209.0,F,Site C,20,,asterisk,mg/dL
+S0043,148.0,U,Site A,75,,,mg/dL
+S0044,218.6,U,Site B,28,,,mg/dL
+S0045,223.2,M,Site B,42,,,mg/dL
+S0046,143.2,F,Site C,59,,,mg/dL
+S0047,165.6,U,Site B,49,,unit_label_implausible,mmol/L
+S0048,108.9,M,Site A,48,,unit_label_implausible,mmol/L
+S0049,166.1,M,Site C,60,re-draw requested,,mg/dL
+S0050,149.3,U,Site B,25,,,mg/dL
+S0051,216.0,M,Site A,15,,,mg/dL
+S0052,172.4,U,Site A,37,,,mg/dL
+S0053,143.5,M,Site A,27,,unit_label_implausible,mmol/L
+S0054,168.0,U,Site A,20,,,mg/dL
+S0055,160.1,U,Site A,14,,unit_label_implausible,mmol/L
+S0056,77.2,M,Site B,16,,,mg/dL
+S0057,88.8,F,Site C,40,,,mg/dL
+S0058,142.8,F,Site C,54,,,mg/dL
+S0059,148.9,M,Site A,58,,unit_label_implausible,mmol/L
+S0060,186.6,U,Site A,56,,,mg/dL

@@ -1,0 +1,73 @@
+Assuming unrestricted shared filesystem usage.
+
+SNAKEMAKE
+=========
+  Date: 2026-11-02 17:26:20
+  Workflow ID: b6b13fd0-fedf-4221-828d-57ce442177fb
+  Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+  Host: Nicole-ASUS
+  User: nelin
+  Snakemake version: 9.27.1
+  Python version: 3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]
+  Command: /home/nelin/miniforge3/envs/lab-5-hds/bin/snakemake -n
+  Snakefile: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds/Snakefile
+  Base directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Run directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Working directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Config file(s): []
+  Config MD5: 99914b932bd37a50b983c5e7c90ae93b
+
+Building DAG of jobs...
+Job stats:
+job                    count
+-------------------  -------
+build_feature_table        1
+merge_tables               1
+make_report                1
+all                        1
+total                      4
+
+
+[Mon Nov  2 17:26:20 2026]
+rule build_feature_table:
+    input: data/raw/lab4-cbioportal-luad/cohort.db, sql/query_3.sql, sql/query_1.sql
+    output: results/feature_table.tsv
+    jobid: 4
+    reason: Updated input files: sql/query_1.sql
+    resources: tmpdir=/tmp
+[Mon Nov  2 17:26:20 2026]
+rule merge_tables:
+    input: results/samples_table.csv, results/feature_table.tsv
+    output: results/combined_table.csv
+    jobid: 1
+    reason: Input files updated by another job: results/feature_table.tsv
+    resources: tmpdir=/tmp
+[Mon Nov  2 17:26:20 2026]
+rule make_report:
+    input: results/combined_table.csv
+    output: results/summary_figure.png, results/summary.md
+    jobid: 5
+    reason: Input files updated by another job: results/combined_table.csv
+    resources: tmpdir=/tmp
+[Mon Nov  2 17:26:20 2026]
+rule all:
+    input: results/combined_table.csv, results/summary_figure.png, results/summary.md
+    jobid: 0
+    reason: Input files updated by another job: results/combined_table.csv, results/summary_figure.png, results/summary.md
+    resources: tmpdir=/tmp
+Job stats:
+job                    count
+-------------------  -------
+build_feature_table        1
+merge_tables               1
+make_report                1
+all                        1
+total                      4
+
+Reasons:
+    (check individual jobs above for details)
+    input files updated by another job:
+        all, make_report, merge_tables
+    updated input files:
+        build_feature_table
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.

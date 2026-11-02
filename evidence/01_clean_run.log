@@ -1,0 +1,221 @@
+Assuming unrestricted shared filesystem usage.
+
+SNAKEMAKE
+=========
+  Date: 2026-11-02 17:15:56
+  Workflow ID: a1d24169-aaaa-4dc6-85f3-a68b6b569061
+  Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+  Host: Nicole-ASUS
+  User: nelin
+  Snakemake version: 9.27.1
+  Python version: 3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]
+  Command: /home/nelin/miniforge3/envs/lab-5-hds/bin/snakemake --cores 2
+  Snakefile: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds/Snakefile
+  Base directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Run directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Working directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Config file(s): []
+  Config MD5: 99914b932bd37a50b983c5e7c90ae93b
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+build_feature_table        1
+clean_samples              1
+build_samples_table        1
+merge_tables               1
+make_report                1
+all                        1
+total                      6
+
+Select jobs to execute...
+Execute 2 jobs...
+
+[Mon Nov  2 17:15:56 2026]
+localrule clean_samples:
+    input: data/raw/lab3-messy-data/messy_samples.csv
+    output: results/samples_clean.csv
+    jobid: 3
+    reason: Missing output files: results/samples_clean.csv
+    resources: tmpdir=/tmp
+[Mon Nov  2 17:15:56 2026]
+localrule build_feature_table:
+    input: data/raw/lab4-cbioportal-luad/cohort.db, sql/query_3.sql, sql/query_1.sql
+    output: results/feature_table.tsv
+    jobid: 4
+    reason: Missing output files: results/feature_table.tsv
+    resources: tmpdir=/tmp
+  sample_id patient_name         dob sex enrollment_site  glucose_mg_dl glucose_unit_original            glucose_flag notes
+0     S0001    A. Nguyen  1962-07-09   F          Site B          145.9                 mg/dL                              
+1     S0002     T. Patel  1974-12-16   M          Site C          146.1                 mg/dL                              
+2     S0003  R. Martinez  1953-11-24   F          Site B           84.2                 mg/dL                              
+3     S0004     A. Patel  1957-02-27   F          Site B          120.0                 mg/dL                              
+4     S0005  B. Martinez  1997-12-02   M          Site B          138.3                 mg/dL                              
+5     S0006       R. Kim  1968-12-05   F          Site C          159.9                mmol/L  unit_label_implausible      
+6     S0007  T. Martinez  1969-09-04   U          Site A          206.0                 mg/dL                              
+7     S0008     K. Davis  1999-08-20   F          Site C          229.3                 mg/dL                               
+
+Missing values per column (only glucose_mg_dl should be non-zero):
+sample_id                0
+patient_name             0
+dob                      0
+sex                      0
+enrollment_site          0
+glucose_mg_dl            0
+glucose_unit_original    0
+glucose_flag             0
+notes                    0 
+
+glucose_flag counts:
+glucose_flag
+''                                   46
+'unit_label_implausible'             12
+'asterisk;unit_label_implausible'     1
+'asterisk'                            1 
+
+glucose_mg_dl summary:
+count     60.0
+mean     154.5
+std       46.1
+min       77.2
+25%      114.9
+50%      149.1
+75%      187.6
+max      241.2 
+
+Wrote 60 rows to results/samples_clean.csv
+[Mon Nov  2 17:15:56 2026]
+Finished jobid: 3 (Rule: clean_samples)
+1 of 6 steps (17%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:15:56 2026]
+localrule build_samples_table:
+    input: results/samples_clean.csv
+    output: results/samples_table.csv
+    jobid: 2
+    reason: Missing output files: results/samples_table.csv; Input files updated by another job: results/samples_clean.csv
+    resources: tmpdir=/tmp
+           glucose_mg_dl sex enrollment_site  age_years notes            glucose_flag glucose_unit_original
+sample_id                                                                                                  
+S0001              145.9   F          Site B         64                                               mg/dL
+S0002              146.1   M          Site C         51                                               mg/dL
+S0003               84.2   F          Site B         72                                               mg/dL
+S0004              120.0   F          Site B         69                                               mg/dL
+S0005              138.3   M          Site B         28                                               mg/dL
+S0006              159.9   F          Site C         57        unit_label_implausible                mmol/L
+S0007              206.0   U          Site A         57                                               mg/dL
+S0008              229.3   F          Site C         27                                               mg/dL 
+
+dtypes:
+glucose_mg_dl            float64
+sex                       object
+enrollment_site           object
+age_years                  int64
+notes                     object
+glucose_flag              object
+glucose_unit_original     object 
+
+Missing values per column:
+glucose_mg_dl            0
+sex                      0
+enrollment_site          0
+age_years                0
+notes                    0
+glucose_flag             0
+glucose_unit_original    0 
+
+age_years range: 10 to 75
+
+Wrote 60 rows to results/samples_table.csv
+[Mon Nov  2 17:15:57 2026]
+Finished jobid: 2 (Rule: build_samples_table)
+2 of 6 steps (33%) done
+Patient count audit
+patients table: 566
+after base query: 566
+after adding gene counts: 566
+Mutation count audit (protein-altering, five genes)
+long table total: 746
+wide table total: 746
+Missing values (NA) per column
+patient_id             0
+sex                   52
+age_at_diagnosis      71
+stage                 54
+tissue_source_site     0
+tmb_nonsynonymous      0
+TP53_count             0
+KRAS_count             0
+EGFR_count             0
+STK11_count            0
+KEAP1_count            0
+Wrote results/feature_table.tsv: 566 rows x 11 columns
+[Mon Nov  2 17:15:57 2026]
+Finished jobid: 4 (Rule: build_feature_table)
+3 of 6 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:15:57 2026]
+localrule merge_tables:
+    input: results/samples_table.csv, results/feature_table.tsv
+    output: results/combined_table.csv
+    jobid: 1
+    reason: Missing output files: results/combined_table.csv; Input files updated by another job: results/feature_table.tsv, results/samples_table.csv
+    resources: tmpdir=/tmp
+Rows per cohort:
+cohort
+luad_tcga         566
+clinic_samples     60
+Missing values per column:
+cohort                 0
+record_id              0
+sex                    0
+age_years             71
+site                   0
+glucose_mg_dl        566
+stage                114
+tmb_nonsynonymous     60
+TP53_count            60
+KRAS_count            60
+EGFR_count            60
+STK11_count           60
+KEAP1_count           60
+Wrote results/combined_table.csv: 626 rows x 13 columns
+[Mon Nov  2 17:15:57 2026]
+Finished jobid: 1 (Rule: merge_tables)
+4 of 6 steps (67%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:15:58 2026]
+localrule make_report:
+    input: results/combined_table.csv
+    output: results/summary_figure.png, results/summary.md
+    jobid: 5
+    reason: Missing output files: results/summary_figure.png, results/summary.md; Input files updated by another job: results/combined_table.csv
+    resources: tmpdir=/tmp
+Wrote results/summary_figure.png and results/summary.md
+[Mon Nov  2 17:15:59 2026]
+Finished jobid: 5 (Rule: make_report)
+5 of 6 steps (83%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:15:59 2026]
+localrule all:
+    input: results/combined_table.csv, results/summary_figure.png, results/summary.md
+    jobid: 0
+    reason: Input files updated by another job: results/combined_table.csv, results/summary_figure.png, results/summary.md
+    resources: tmpdir=/tmp
+[Mon Nov  2 17:15:59 2026]
+Finished jobid: 0 (Rule: all)
+6 of 6 steps (100%) done
+Complete log(s): /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds/.snakemake/log/2026-11-02T171556.041873.snakemake.log
+Elapsed time: 0:00:03.051602

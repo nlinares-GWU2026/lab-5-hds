@@ -1,0 +1,21 @@
+Assuming unrestricted shared filesystem usage.
+
+SNAKEMAKE
+=========
+  Date: 2026-11-02 17:20:50
+  Workflow ID: 602e640b-9d5f-4c4a-a9b3-bd0c3ef8263e
+  Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+  Host: Nicole-ASUS
+  User: nelin
+  Snakemake version: 9.27.1
+  Python version: 3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]
+  Command: /home/nelin/miniforge3/envs/lab-5-hds/bin/snakemake -n
+  Snakefile: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds/Snakefile
+  Base directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Run directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Working directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Config file(s): []
+  Config MD5: 99914b932bd37a50b983c5e7c90ae93b
+
+Building DAG of jobs...
+Nothing to be done (all requested files are present and up to date).

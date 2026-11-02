@@ -1,0 +1,125 @@
+Assuming unrestricted shared filesystem usage.
+
+SNAKEMAKE
+=========
+  Date: 2026-11-02 17:26:35
+  Workflow ID: 30791ff0-94f3-4309-9b02-e85fa073203e
+  Platform: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+  Host: Nicole-ASUS
+  User: nelin
+  Snakemake version: 9.27.1
+  Python version: 3.12.16 (main, Oct 26 2026, 11:37:43) [GCC 15.3.0]
+  Command: /home/nelin/miniforge3/envs/lab-5-hds/bin/snakemake --cores 2
+  Snakefile: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds/Snakefile
+  Base directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Run directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Working directory: /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds
+  Config file(s): []
+  Config MD5: 99914b932bd37a50b983c5e7c90ae93b
+
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 2
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count
+-------------------  -------
+build_feature_table        1
+merge_tables               1
+make_report                1
+all                        1
+total                      4
+
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:26:35 2026]
+localrule build_feature_table:
+    input: data/raw/lab4-cbioportal-luad/cohort.db, sql/query_3.sql, sql/query_1.sql
+    output: results/feature_table.tsv
+    jobid: 4
+    reason: Updated input files: sql/query_1.sql
+    resources: tmpdir=/tmp
+Patient count audit
+patients table: 566
+after base query: 566
+after adding gene counts: 566
+Mutation count audit (protein-altering, five genes)
+long table total: 746
+wide table total: 746
+Missing values (NA) per column
+patient_id             0
+sex                   52
+age_at_diagnosis      71
+stage                 54
+tissue_source_site     0
+tmb_nonsynonymous      0
+TP53_count             0
+KRAS_count             0
+EGFR_count             0
+STK11_count            0
+KEAP1_count            0
+Wrote results/feature_table.tsv: 566 rows x 11 columns
+[Mon Nov  2 17:26:37 2026]
+Finished jobid: 4 (Rule: build_feature_table)
+1 of 4 steps (25%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:26:37 2026]
+localrule merge_tables:
+    input: results/samples_table.csv, results/feature_table.tsv
+    output: results/combined_table.csv
+    jobid: 1
+    reason: Input files updated by another job: results/feature_table.tsv
+    resources: tmpdir=/tmp
+Rows per cohort:
+cohort
+luad_tcga         566
+clinic_samples     60
+Missing values per column:
+cohort                 0
+record_id              0
+sex                    0
+age_years             71
+site                   0
+glucose_mg_dl        566
+stage                114
+tmb_nonsynonymous     60
+TP53_count            60
+KRAS_count            60
+EGFR_count            60
+STK11_count           60
+KEAP1_count           60
+Wrote results/combined_table.csv: 626 rows x 13 columns
+[Mon Nov  2 17:26:37 2026]
+Finished jobid: 1 (Rule: merge_tables)
+2 of 4 steps (50%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:26:37 2026]
+localrule make_report:
+    input: results/combined_table.csv
+    output: results/summary_figure.png, results/summary.md
+    jobid: 5
+    reason: Input files updated by another job: results/combined_table.csv
+    resources: tmpdir=/tmp
+Wrote results/summary_figure.png and results/summary.md
+[Mon Nov  2 17:26:38 2026]
+Finished jobid: 5 (Rule: make_report)
+3 of 4 steps (75%) done
+Select jobs to execute...
+Execute 1 jobs...
+
+[Mon Nov  2 17:26:38 2026]
+localrule all:
+    input: results/combined_table.csv, results/summary_figure.png, results/summary.md
+    jobid: 0
+    reason: Input files updated by another job: results/combined_table.csv, results/summary_figure.png, results/summary.md
+    resources: tmpdir=/tmp
+[Mon Nov  2 17:26:38 2026]
+Finished jobid: 0 (Rule: all)
+4 of 4 steps (100%) done
+Complete log(s): /mnt/c/Users/nelin/Desktop/GWU Information/GWU Fall 2026/Applied_Computing/lab-5-hds/.snakemake/log/2026-11-02T172635.469237.snakemake.log
+Elapsed time: 0:00:03.395488
