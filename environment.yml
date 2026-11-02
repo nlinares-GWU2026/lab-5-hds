@@ -1,0 +1,10 @@
+name: lab-5-hds
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.12
+  - snakemake>=9
+  - pandas=2.2
+  - matplotlib
+  - graphviz
